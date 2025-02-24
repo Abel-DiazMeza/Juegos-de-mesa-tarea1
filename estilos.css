@@ -118,3 +118,76 @@ header{
 .contenedor_links_g3 a:hover{
     color: #77e073;
 }
+
+.bienvenida{
+    display: grid;
+    grid-template-rows:800px;
+    grid-template-columns: 3fr 2fr;
+    align-items:stretch;
+    justify-items: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.bienvenida_izq{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 70%;
+    padding: 10px;
+    gap: 5px;
+    color: #fff;
+}
+
+.bienvenida_izq span{
+    font-size: 30px;
+
+}
+
+.bienvenida_izq h1{
+    font-size: 40px;
+
+}
+
+.bienvenida_izq p{
+    font-weight: bold;
+    color: rgb(22, 32, 165);
+}
+
+.suscribete{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+}
+
+.text_Suscribete{
+    font-size: 20px;
+    color: #fff;
+}
+
+.boton{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.boton button{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 20px;
+    align-items: center;
+}
+
+.bienvenida_izq input{
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid #fff;
+    height: 50px;
+}
+
+.img_Bienvenida{
+    width: 100%;
+    height: 100%;
+}
