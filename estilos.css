@@ -245,3 +245,40 @@ header{
     justify-content: center;
     color: #fff;
 }
+
+.Conecta{
+    display: grid;
+    grid-template-rows:500px;
+    grid-template-columns: 2fr 2fr;
+    align-items:center;
+    justify-items: start;
+    gap: 5px;
+    padding: 25px;
+}
+
+.img_conecta {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: end;
+    width: 80%;
+}
+
+.img_conecta img{
+    height: 450px;
+}
+
+.text_conecta{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    align-items: end;
+    justify-items: start;
+    color: #eceff1;
+    width: 80%;
+}
+
+.text_conecta h2{
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(22, 32, 165);
+}
